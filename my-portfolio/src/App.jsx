@@ -5,6 +5,7 @@ import './App.css'
 // 1. Import your project images here
 import calculatorImg from './assets/calculator.png'
 import libraryImg from './assets/library.png'
+import heroImg from "./assets/hero.png";
 
 
 
@@ -62,7 +63,7 @@ function App() {
         {/* Right Side: The Image Profile */}
           <div className="hero-image-box">
             {/* You can replace 'profile.png' with your actual image filename later */}
-            <img src="/src/assets/hero.png" alt="Zainab Hasan" className="hero-img" />
+            <img src={heroImg} alt="Zainab Hasan" className="hero-img" />
           </div>
 
         </div>
