@@ -425,15 +425,15 @@ body {
 /* Increase the size of the project images in the cards */
 .project-img {
   width: 100%;
-  height: 230px; /* ارتفاع عکس بزرگ‌تر شد تا جزئیات پروژه مشخص‌تر شود */
-  object-fit: cover; /* حفظ دقیق تناسبات تصویر بدون تغییر شکل */
-  border-radius: 8px; /* گرد شدن لبه‌ها متناسب با کارت */
-  margin-bottom: 1.5rem; /* فاصله بین عکس و عنوان */
-  border: 1px solid #334155; /* حاشیه ملایم نئونی دور عکس */
-  transition: transform 0.3s ease; /* انیمیشن نرم برای حرکت عکس */
+  height: 230px; 
+  object-fit: cover; 
+  border-radius: 8px; 
+  margin-bottom: 1.5rem; 
+  border: 1px solid #334155; 
+  transition: transform 0.3s ease; 
 }
 
-/* افکت حرکتی جذاب: وقتی موس روی کارت می‌رود، عکس کمی زوم می‌شود */
+
 .project-card:hover .project-img {
   transform: scale(1.02);
 }
@@ -444,7 +444,7 @@ body {
 
 /* Neon glow and lift effect on hover */
 .hero-card:hover {
-  transform: translateY(-5px); /* کارت کمی به سمت بالا حرکت می‌کند */
-  border-color: #38bdf8; /* تغییر رنگ حاشیه به آبی درخشان */
-  box-shadow: 0 15px 35px rgba(56, 189, 248, 0.2); /* ایجاد سایه درخشان نئونی دور کارت */
+  transform: translateY(-5px); 
+  border-color: #38bdf8; 
+  box-shadow: 0 15px 35px rgba(56, 189, 248, 0.2); 
 }
